@@ -1,0 +1,192 @@
+Preprocessing prefer
+- low ISO
+- leave more room for post-processing
+	- low contrast
+	- low saturation
+	- low sharpness
+RAW format
+- correct shutter, aperture, iso
+- auto white balance to obtain right exposure
+- low contrast to correctly read histogram
+- high sharpness to get clear focus
+- turn off high iso noise reduction to get real noise 
+
+Photo analysis
+- histogram for exposure
+	- tone
+		- shadow
+		- highlight
+	- bell distribution 
+	- avoid overexposure. if happen be caution for contrasting and s-curve
+- white balance
+	- express mood
+- sharpness
+	- focus
+		- show focus in adobe
+		- red dots in camera
+
+Photo modification (D)
+- lens correction
+	- Default preset file
+	- Lens correct for batch at once
+		- Distortion
+		- Vignetting
+	- aberration
+		- auto correction
+		- Droptip find aberration color to defringe
+		- zoom 200%, alt + slide to view the affected area
+- Transform
+	- upright 
+		- alt keep original picture ratio
+		- level key 
+	- transform
+	- rotation
+	- perspective
+- crop
+
+Tone and color is core for post-processing
+- white balance
+	- if default value in lightroom far from 0 white balance might need adjusted
+	- it should be adjusted at first
+- tone
+	- Increase shadow and reduce highlight reduce contrast
+- curve
+	- point curve
+	- control bright and contrast at individual tones 
+- clarity
+	- edge contrast  
+	- middle tone contrast
+	- statue photo
+- saturation and vibrance
+	- 0 saturation is black-white 
+	- use vibrance first to avoid over saturation
+	- high contrast gives good vibrance
+- HSL
+	- HSL is used when you want specific color
+	- hue, saturation, and luminance
+		- drag adjust tool
+
+Local and details
+- spot removal
+	- Heal is copy and mixed with target area
+	- Visualize spot check atbottom of photo
+	- / key find another source area
+	- Brush to define spot region to heal or copy
+- adjustment brush, and gradual filter and radial filter (sht+M)
+	- graduate at bottom to add another clarity, noise reduction, etc
+- detail sharpness
+	- sharpness 
+		- zoom in 100%
+		- sharpness is edge detail removal to increase contrast of two side
+		- portrait low sharp, landscape high sharp 
+		- more radius more detail kept
+	- detail
+		- detail is edge definition value, low value for clear edge
+		- high detail sharpen line 
+		- low detail sharpen contour
+	- mask
+		- low value sharpen whole picture
+		- high value sharpen edge
+		- good for face to avoid over sharpness
+- noise reduction
+	- zoom 100% to check
+	- noise is up to signal brightness and sensitivity (iso)
+	- especially at large dark plain area with high iso
+	- first color noise reduction
+	- high noise reduction value affect detail
+	- noise reduction first then sharpness with mask for contours sharpness only
+- color split
+	- define color at shadow and highlight area
+- effect
+
+Portrait
+- basic
+	- low contrast and low saturation preset (adobe standard)
+	- white balance
+	- skin saturation reduction and brightness increase using HSL drag tool which enhance the subject  
+- heal
+	- skin
+	- spot on hair
+- whiten teeth with adjustment brush
+	- teeth whiten
+	- check auto mask
+	- mask add (ctrl+sht+O)
+- soften skin with adjust pen 
+	- skin soft
+	- don't check auto mask except edge 
+	- reduce clarity and sharpness
+- eyebag removal with spot removal (Q)
+- sharpness with mask
+	- alt key to see the affected area
+- saturation increase with vibrance
+
+Black and white
+- set saturation to -100 to convert to black white 
+- use black white panel (V) to control hue 
+	- black&white mix drag tool
+		- brighten skin
+		- darken sky
+- clarity good in black white
+- bright increase to whiten teeth
+- shadow bright increase for hair detail
+
+Combine with photoshop
+- outside editor
+	- tiff format
+	- off maximun Torrance
+	- ProPhone RGB
+
+New tricks
+- intelligent
+- pre defined
+	- lens and camera correction
+		- camera neutral
+		- uncheck all
+		- lens profile
+		- aberration
+		- version 
+		- correction
+
+Prehistory example
+- upright correct perspective to upright
+- use curve white and black points to change contrast according to histogram
+- contrast enhance and clarity for detail
+- white balance
+- Black level to compensate contrast reduction
+- Radial filter to add light shot effect  
+- color curve drag tool for contrast 
+- mask to sharpen
+
+Garden example
+- check histogram over exposure but RGB around 40%
+- camera landscape as profile
+- lens correction
+- to get flat histogram adjust shadow and highlight to avoid over highlight and over dark
+- contrast, white, dark level to adjust contrast
+- color curve further increase contrast
+- adjustment brush to adjust local exposure and highlight
+- sharpness
+
+Wedding example
+- adobe standard profile 
+- heal
+- set low saturation (-40) for later process
+- high white balance make skin soft and affect brightness
+- reduce clarity to soften effect
+- increase vibrance to compensate saturation
+- adjustment brush to increase flower brightness with exposure and shadow and saturation to compensate brightness increase
+- soften skin
+- inverse dark edge to get dream effect
+- mask to sharpen 
+
+Landscape
+- lens correction
+	- level
+- crop
+- black&white mix (V)
+- gradual filter
+	- get some detail on sky
+- S curve increase contrast
+- clarity
+- highlight low limit and shadow high limit like HDR and keep detail for sky and grasses
+- Drag tool to increase grass brightness
